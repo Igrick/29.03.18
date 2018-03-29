@@ -1,5 +1,7 @@
 <?php
 
-class test {
-    //put your code here
+class test  implements testable{
+    public function test() {
+	echo '<p>test method from test class</p>';
+    }
 }
